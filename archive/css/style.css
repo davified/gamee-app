@@ -1,0 +1,73 @@
+* {
+  margin: 0 auto;
+  font-family: Futura;
+  text-align: justify
+}
+
+h1 {
+  font-family: Futura;
+  text-align: center;
+  padding: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none
+}
+
+a:hover {
+  color: white;
+  text-decoration: none
+}
+
+body.background{
+  background: teal;
+  max-width: 600px;
+  margin: 0 auto
+  /*background-image: url('https://media.giphy.com/media/3oEduXD0t9F3VPNQXu/giphy.gif');
+  background-repeat:   no-repeat;
+  background-size: cover;
+  background-position: center center;*/
+}
+
+.quest-main {
+  /*background: darkblue;*/
+  border: 10px solid white
+}
+
+.icon {
+  height: 100px;
+  width: 100px
+}
+
+.active-icon {
+  height: 50px;
+  width: 50px
+}
+
+.inactive-icon {
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  -webkit-filter: grayscale(100%);
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  background-color: red
+}
+
+div.row {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 1.5em
+}
+
+/*h1, h2, h3, h4, h5, h6 {
+  color: black
+}*/

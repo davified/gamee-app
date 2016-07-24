@@ -1,0 +1,1 @@
+var mydata = jQuery.parseJSON(quiz_data);

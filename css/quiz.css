@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900italic,300,500,400italic);
+@import url(https://fonts.googleapis.com/css?family=Londrina+Solid);
+
+.background {
+
+
+}
+
+* {
+	font-family: 'Londrina Solid';
+}
+
+body{
+	background: #E74C3C;
+}
+
+
+.popup {
+	display: inline;
+}
+
+.category_box {
+	display: block;
+	border: 2px solid black;
+	/* padding: 30px 30px; */
+	font-family: 'Londrina Solid';
+	font-size: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	background: #2C3E50;
+	color: white;
+}
+
+.dashboard_container{
+
+}
+
+.category_row_col{
+	/* padding: 0px; */
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+.play_btn{
+	display: block;
+	padding: 10px 10px;
+	font-family: 'Londrina Solid';
+	font-size: 30px;
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #fff;
+}
+
+.dashboard_header{
+	background-color: gold;
+	padding: 10px;
+	font-size: 40px;
+	text-align: center;
+	color: white
+}
+
+.dashboard_sub_header{
+	/* padding: 0px 0px; */
+	font-size: 20px;
+	color: white;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
