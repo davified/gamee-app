@@ -21,7 +21,7 @@ body{
 
 .category_box {
 	display: block;
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 	/* padding: 30px 30px; */
 	font-family: 'Londrina Solid';
 	font-size: 40px;
