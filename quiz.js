@@ -8,7 +8,8 @@ function Question (qn, options, answerIndex, factMsg) {
 }
 
 // using the new keyword and the constructor we can create questions for the quiz
-var question1 = new Question('What can you do to raise your metabolism rate?', ["You can't change your metabolism rate", 'Build greater muscle mass', 'Eat lesser oily food', 'Drink yuzu tea'], 1, 'Staying fit is the best way to raise your metabolism rate because you use more energy when you have greater muscle mass. Put simply, the more you move about, the more calories you will burn.')
+
+var question1 = new Question('Which locations in Singapore are highest hit with Dengue?', ['Orchard','Kallang','Bukit timah','Marymount'], 3, 'Marymount has the highest number of dengue cases. If you live in the area, remember to take safety precautions')
 
 var question2 = new Question('Which of the options below is not an effective weight loss practice?', ['Skipping meals', 'Walking at least 10,000 steps a day', 'Having sufficient sleep', 'Eating well'], 0, 'Contrary to popular belief, skipping meals actually disrupts your metabolic rate and is not effective as a weight loss strategy. Eating well and sleeping early also lowers the desire for unhealthy snacks.')
 
@@ -16,7 +17,7 @@ var question3 = new Question('How long must you brisk-walk for before you can re
 
 var question4 = new Question('Can you "work out" a cold or the flu?', ["Only if you're not too sick", 'Yes', 'A cold, but not the flu', 'No way!'], 2, 'If your symptoms are above the neck, including a sore throat, nasal congestion, sneezing, and tearing eyes, then it\'s OK to exercise," he says. "If your symptoms are below the neck, such as coughing, body aches, fever, and fatigue, then it\'s time to hang up the running shoes until these symptoms subside.')
 
-var question5 = new Question('Which locations in Singapore are highest hit with Dengue?', ['Orchard','Kallang','Bukit timah','Marymount'], 3, 'Marymount has the highest number of dengue cases. If you live in the area, remember to take safety precautions')
+var question5 = new Question('What can you do to raise your metabolism rate?', ["You can't change your metabolism rate", 'Build greater muscle mass', 'Eat lesser oily food', 'Drink yuzu tea'], 1, 'Staying fit is the best way to raise your metabolism rate because you use more energy when you have greater muscle mass. Put simply, the more you move about, the more calories you will burn.')
 
 
 // we can create an object to represent all of the settings and scores for the quiz
